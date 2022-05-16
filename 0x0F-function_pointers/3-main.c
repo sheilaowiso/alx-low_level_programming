@@ -1,17 +1,16 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "3-calc.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main- Entry point
- * Description: this program references 4 arguments
- * defined in 3-op_functions.c without callig them directly.
- * it has  3 exit statuses
- * 98 - if the arguments are not 4
- * 99 - if op is null
- * 100- if div or mod gives an answer 0
-* @argc: size of argv
- * @argv: array of size argc
+ * main - get_op_func has operators correlated with
+ * func signs and funcs from op_func
+ * if not 4 arguments, return Error & exit 98
+ * if op is null, return Error & exit 99
+ * if div or mod 0, return Error & exit 100
+ * run calc, input one, operator, input two = pointer res to get_op
+ * @argc: arguments
+ * @argv: double pointer to arguments
  * Return: 0
  */
 int main(int argc, char *argv[])
@@ -45,6 +44,6 @@ int main(int argc, char *argv[])
 	res = get_op_func(get_op);
 	ans = res(one, two);
 
-	print("%d\n", ans);
+	printf("%d\n", ans);
 	return (0);
 }

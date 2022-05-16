@@ -1,23 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "3-calc.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
- * op_add - adds two numbers
- * @a: first number
- * @b: second number
+ * op_add - 5 functions
+ * @a: input one
+ * @b: input two
  * Return: 0
-*/
+ */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 
 /**
- * op_sub -subtracts two numbers
- * @a: first number
- * @b: second number
- * Return: Always 0
+ * op_sub - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
  */
 int op_sub(int a, int b)
 {
@@ -25,10 +25,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multiplies two numbers
- * @a: first number
- * @b: second number
- * Return: Always 0
+ * op_mul - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
  */
 int op_mul(int a, int b)
 {
@@ -36,10 +36,10 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - divides two numbers
- * @a: first number
- * @b: second number
- * Return: Always 0
+ * op_div - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
  */
 int op_div(int a, int b)
 {
@@ -47,10 +47,10 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - returns modulus of two numbers
- * @a: first number
- * @b: second number
- * Return: Always 0
+ * op_mod - 5 functions
+ * @a: input one
+ * @b: input two
+ * Return: 0
  */
 int op_mod(int a, int b)
 {
